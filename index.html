@@ -14,7 +14,7 @@
       .controls {color: white}
     </style>
     <div id="unity-container" class="unity-desktop">
-      <div id="unity-build-title">
+      <div class="title">
         <h1>Dam Water Level Simulation</h1>
       </div>
       <canvas id="unity-canvas" width=960 height=600></canvas>
@@ -27,31 +27,31 @@
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <!-- <div id="unity-webgl-logo"></div> -->
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">
-          Use your keyboard and press the corresponding keys:
-              <table>
-              <tr>
-                  <td>1</td>
-                  <td>Normal Event.</td>
-              </tr>
-              <tr>
-                  <td>2</td>
-                  <td>Dam Safety Event.</td>
-              </tr>
-              <tr>
-                  <td>3</td>
-                  <td>Dam Safety Emergency.</td>
-              </tr>
-              <tr>
-                  <td>4</td>
-                  <td>End of Event.</td>
-              </tr>
-              </table>
-
-              More about the project <a href="https://github.com/hamdanbasri/DamSimulationWebGL">here</a>
-          </div>
+        <div id="unity-fullscreen-button"></div>        
       </div>
+      <div class="controls">
+        Use your keyboard and press the corresponding keys:
+            <table>
+            <tr>
+                <td>1 - </td>
+                <td>Normal Event.</td>
+            </tr>
+            <tr>
+                <td>2 - </td>
+                <td>Dam Safety Event.</td>
+            </tr>
+            <tr>
+                <td>3 - </td>
+                <td>Dam Safety Emergency.</td>
+            </tr>
+            <tr>
+                <td>4 - </td>
+                <td>End of Event.</td>
+            </tr>
+            </table>
+
+            More about the project <a href="https://github.com/hamdanbasri/DamSimulationWebGL">here</a>
+        </div>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
